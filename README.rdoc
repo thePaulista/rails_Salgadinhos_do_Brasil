@@ -6,7 +6,8 @@ Order
 User(admin, user)
 
 Cart - session based model: not persisted in the database, but in the session variable. 
-  -- CartItem
+  Cart is without dependencies. Again, session based.  Will inject into the application and not the other way around.
+  -- CartItem - manages the individual items in the cart
   
 __
 Category model for UX
