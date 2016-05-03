@@ -1,2 +1,15 @@
-a store built using braintree for $ transactions. 
-pay me!
+Core Data Model: 
+
+Product 
+Order
+  -- OrderItem 
+User(admin, user)
+Cart - session based model: not persisted in the database, but in the session variable. 
+  -- CartItem
+  
+__
+Category model for UX
+
+
+
+Using: Braintree, Devise and Haml
